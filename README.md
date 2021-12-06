@@ -19,20 +19,16 @@ Print both the values it would be interchanged
 End the program
 ## PROGRAM:
 ~~~
-#Program to swap two values.
-#Developed by:A.kathirvel
-#RegisterNumber:21002362
-a=int(input())
-b=int(input())
-temp=a
-a=b
-b=temp
-print("Swapped values are:",a , b)
+a=int(input("Enter the first variable:"))
+b=int(input("Enter the second variable:"))
+print("Before swapping : \na=",a,"\nb=",b)
+t=b
+b=a
+a=t
+print("After swapping : \na=",a,"\nb=",b)
 ~~~
-
+## OUTPUT:
+![GitHub Logo](sc.png)
 
 ## RESULT:
-Thus the swapping of two values are successfully executed
-
-
-
+Thus the swapping of two values are successfully executed.
